@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- # Extension para Inkscape creada por Marcos Feijoo www.ukelab.es
-     # Usa y comparte libremente 
+     # Usa y comparte libremente
 -->
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>Uke Chord Dictionary</_name>
   <id>es.ukelab.ukeChordDic</id>
-  <dependency type="executable" location="extensions">ukeChordDic.py</dependency>
-  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <dependency type="executable" location="inx">ukeChordDic.py</dependency>
+  <dependency type="executable" location="inx">inkex.py</dependency>
    <param name="tab" type="notebook">
 	    <page name="tab1" _gui-text="Chord Dictionary">
             <_param name="titPagina" type="description">Uke Chord Dic</_param>
@@ -17,41 +17,41 @@
 				<item value="10">10</item>
 				<item value="20">20</item>
 				<item value="30">30</item>
-				<item value="40">40</item> 
-				<item value="50">50</item>  
+				<item value="40">40</item>
+				<item value="50">50</item>
 				<item value="100">100</item>
-				<item value="200">200</item>  
-				<item value="300">300</item>  	
-            </param> 
+				<item value="200">200</item>
+				<item value="300">300</item>
+            </param>
 			<param name="anchoLinea" type="enum" _gui-text="Ancho de linea">
-				<item value="2">2</item>			
-				<item value="4">4</item> 
-				<item value="6">6</item>  
-				<item value="8">8</item> 
-				<item value="10">10</item> 
-			</param> 
+				<item value="2">2</item>
+				<item value="4">4</item>
+				<item value="6">6</item>
+				<item value="8">8</item>
+				<item value="10">10</item>
+			</param>
 			<param name="nota" type="enum" _gui-text="Nota">
-				<item value="1">DO</item>			
-				<item value="2">DO#</item> 
-				<item value="3">RE</item>  
-				<item value="4">RE#</item> 
-				<item value="5">MI</item> 
-				<item value="6">FA</item> 
-				<item value="7">FA#</item> 
-				<item value="8">SOL</item> 
-				<item value="9">SOL#</item> 
-				<item value="10">LA</item> 
+				<item value="1">DO</item>
+				<item value="2">DO#</item>
+				<item value="3">RE</item>
+				<item value="4">RE#</item>
+				<item value="5">MI</item>
+				<item value="6">FA</item>
+				<item value="7">FA#</item>
+				<item value="8">SOL</item>
+				<item value="9">SOL#</item>
+				<item value="10">LA</item>
 				<item value="11">LA#</item>
-				<item value="12">SI</item>                 
+				<item value="12">SI</item>
 			    </param>
 			<param name="modo" type="enum" _gui-text="Modo">
-				<item value="1">Mayor</item>			
-				<item value="2">Menor</item> 
-				<item value="3">7</item>  
-				<item value="4">m7</item> 
+				<item value="1">Mayor</item>
+				<item value="2">Menor</item>
+				<item value="3">7</item>
+				<item value="4">m7</item>
 				<item value="5">dim</item>
 			</param>
-			
+
 			<param name="impAyuda" type="boolean" _gui-text="Imprimir ayuda">true</param>
 		</page>
 	    <page name="tab2" _gui-text="Info">
@@ -59,7 +59,7 @@
 			  <_param name="titPagina" type="description">v1.0 Marzo 2015</_param>
 			  <_param name="titPagina" type="description">info@ukelab.es</_param>
 			  <_param name="titPagina" type="description">www.ukelab.es</_param>
-		</page>      
+		</page>
     </param>
   <effect>
     <object-type>all</object-type>
