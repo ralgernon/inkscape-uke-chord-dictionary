@@ -6,7 +6,6 @@
   <_name>Uke Chord Dictionary</_name>
   <id>es.ukelab.ukeChordDic</id>
   <dependency type="executable" location="inx">ukeChordDic.py</dependency>
-  <dependency type="executable" location="inx">inkex.py</dependency>
    <param name="tab" type="notebook">
 	    <page name="tab1" _gui-text="Chord Dictionary">
             <_param name="titPagina" type="description">Uke Chord Dic</_param>
